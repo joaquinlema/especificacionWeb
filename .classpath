@@ -64,6 +64,10 @@
 	<classpathentry kind="lib" path="xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="C:/Users/31/Desktop/UNGS/Esp de soft/apache-tomcat-8.0.26-windows-x86.zip"/>
 	<classpathentry kind="lib" path="C:/Users/31/Desktop/UNGS/Esp de soft/apache-tomcat-8.0.26"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

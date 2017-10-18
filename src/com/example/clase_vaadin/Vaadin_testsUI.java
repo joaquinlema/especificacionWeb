@@ -1,5 +1,6 @@
 package com.example.clase_vaadin;
 
+/*
 import java.util.Date;
 
 import javax.servlet.annotation.WebServlet;
@@ -12,6 +13,7 @@ import com.vaadin.ui.Button;
 import com.vaadin.ui.Button.ClickEvent;
 import com.vaadin.ui.DateField;
 import com.vaadin.ui.Label;
+import com.vaadin.ui.Panel;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
@@ -42,9 +44,12 @@ public class Vaadin_testsUI extends UI {
 		
 		Formulario form = new Formulario();
 		
-		layout.addComponent(button);
-		layout.addComponent(date);
-		layout.addComponent(form.getForm());
+		Panel panel = new Panel();
+		panel.setContent(form.getForm());
 		
+		layout.addComponent(button);
+		//layout.addComponent(date);
+		//layout.addComponent(panel);
+
 	}
-}
+}*/
