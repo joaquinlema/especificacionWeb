@@ -69,7 +69,7 @@ public class WindowInicio extends UI{
 			
 			@Override
 			public void itemClick(ItemClickEvent event) {
-				getNavigator().navigateTo("");
+				getNavigator().navigateTo("otraView");
 			}
 		});
 	

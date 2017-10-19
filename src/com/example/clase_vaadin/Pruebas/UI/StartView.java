@@ -10,6 +10,8 @@ import com.vaadin.ui.VerticalLayout;
 @SuppressWarnings("serial")
 public class StartView extends VerticalLayout implements View {
 
+	public static final String NAME = "";
+	
 	public StartView(){
 		setSizeFull();
 		
