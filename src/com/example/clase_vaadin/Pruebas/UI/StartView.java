@@ -1,38 +1,33 @@
-package com.example.clase_vaadin;
+package com.example.clase_vaadin.Pruebas.UI;
 
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.ui.Alignment;
 import com.vaadin.ui.Button;
-import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Button.ClickEvent;
+import com.vaadin.ui.VerticalLayout;
 
 @SuppressWarnings("serial")
-public class OtraView extends VerticalLayout implements View{
-		
+public class StartView extends VerticalLayout implements View {
 
-	protected static final String NAME = null;
-
-
-	public OtraView(){
+	public StartView(){
 		setSizeFull();
 		
-		Button button = new Button("Ir a StartView", new Button.ClickListener(){
+		Button button = new Button("Ir a Main", new Button.ClickListener(){
 			@Override
 			public void buttonClick(ClickEvent event){
-				getUI().getNavigator().navigateTo(StartView.NAME);
+				getUI().getNavigator().navigateTo("otraView");
 			}
 		});
 		
 		addComponent(button);
-		setComponentAlignment(button, Alignment.BOTTOM_CENTER);
+		setComponentAlignment(button, Alignment.BOTTOM_LEFT);
 	}
-	
 	
 	@Override
 	public void enter(ViewChangeEvent event) {
 		// TODO Auto-generated method stub
-		
 	}
 
+	
 }
