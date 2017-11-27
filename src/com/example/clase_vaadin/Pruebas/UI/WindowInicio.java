@@ -43,7 +43,8 @@ public class WindowInicio extends UI{
 //		});
 //		layout.addComponents(name,btn);
 		
-		tree = new Tree("Mi Aplicacion");	
+		tree = new Tree("Mi app"); 
+		
 		tree.addItem("Clientes");
 		tree.addItem("Actualizar");
 		tree.addItem("Borrar");
@@ -64,7 +65,7 @@ public class WindowInicio extends UI{
 		tree.setChildrenAllowed("Impositivas", false);
 		tree.setChildrenAllowed("Contables", false);
 		tree.setChildrenAllowed("Varias", false);
-		
+
 		tree.addItemClickListener(new ItemClickEvent.ItemClickListener() {
 			
 			@Override
@@ -80,6 +81,7 @@ public class WindowInicio extends UI{
 		
 		nav.addView("", new StartView());
 		nav.addView(OtraView.NAME, new OtraView());
+		 
 		
 
 		hsplit = new HorizontalSplitPanel();
